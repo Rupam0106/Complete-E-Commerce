@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Rupam0106/Complete-E-Commerce#readme",
   "dependencies": {
+    "compression": "^1.7.4",
     "connect-sqlite": "^0.0.1",
     "connect-sqlite3": "^0.9.13",
     "cookie-parser": "^1.4.6",
