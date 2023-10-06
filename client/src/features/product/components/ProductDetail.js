@@ -153,7 +153,7 @@ export default function ProductDetail() {
                 ${product.price}
               </p>
               <p className="text-3xl tracking-tight text-gray-900">
-                ${product.price}
+                ${Math.floor(product.price-(product.price * product.discountPercentage/100))}
               </p>
 
               {/* Reviews */}
