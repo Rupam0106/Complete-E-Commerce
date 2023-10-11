@@ -12,6 +12,8 @@ import { selectUserInfo } from '../user/userSlice';
 
 const navigation = [
   { name: 'Products', link: '/', user: true },
+  { name: 'About', link: '/about', user: true },
+  { name: 'Contact', link: '/contact', user: true },
   { name: 'Products', link: '/admin', admin: true },
   { name: 'Orders', link: '/admin/orders', admin: true },
 
